@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'GNDU'
+            keyPassword '123456'
+            storeFile file('D:/GuruNanakDevUniversity/Keystore/key.jks')
+            storePassword 'asdfghjkl'
+        }
+    }
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+    defaultConfig {
+        applicationId "com.gndu.gurunanakdevuniversity"
+        minSdkVersion 10
+        targetSdkVersion 14
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.config
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/android-support-v4.jar')
+}

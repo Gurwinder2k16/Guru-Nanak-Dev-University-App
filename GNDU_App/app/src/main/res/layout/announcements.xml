@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView1"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:overScrollMode="always" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/s5"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/gndue" />
+
+                <ImageView
+                    android:id="@+id/s4"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/camrcjal" />
+
+                <ImageView
+                    android:id="@+id/s3"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/gur" />
+
+                <ImageView
+                    android:id="@+id/s2"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/sah" />
+
+                <ImageView
+                    android:id="@+id/ImageView01"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/lodh" />
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <ImageView
+            android:id="@+id/adm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/prev" />
+    </LinearLayout>
+
+</ScrollView>

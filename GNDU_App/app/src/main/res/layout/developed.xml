@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="always" >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#fff"
+        android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/wa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#fff"
+        android:orientation="vertical" >
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:background="#fff"
+            android:scaleType="fitXY"
+            android:src="@drawable/gndu"
+            android:layout_margin="5dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/viewmore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="4dp"
+        android:text="Application Developed By:-                                                              Gurwinder Singh(B-tech CSE Department 3rd Sem(2014-2018)(JLNDR Campus),Kartik Malik(B-Tech(ECSE) 3rd Sem(2014-2018).Main Campus)"
+        android:textColor="#ff000000"
+        android:background="@drawable/card_background_selector"
+        android:layout_margin="5dp"
+        android:paddingBottom="5dp"
+        android:padding="5dp"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="4dp"
+        android:text="Supported By:-  Dr.Sandeep Sharma,Dr.Jyotish Malhotra,Dr.Sheetal Kalra."
+        android:textColor="#ff000000"
+        android:background="@drawable/card_background_selector"
+        android:layout_margin="5dp"
+        android:paddingBottom="5dp"
+        android:padding="5dp"
+        android:textSize="17sp" />
+</LinearLayout>
+</ScrollView>

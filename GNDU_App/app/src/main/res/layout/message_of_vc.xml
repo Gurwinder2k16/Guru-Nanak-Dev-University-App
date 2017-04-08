@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff9f9f9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/z"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/actionbar">
+
+            <ImageView
+                android:id="@+id/adm"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/prev" />
+
+            <TextView
+                android:id="@+id/cname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="14dp"
+                android:text=" V.C Message"
+                android:textSize="25sp"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/aaacx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/card_background_selector"
+            android:orientation="vertical"
+            android:layout_margin="3dp">
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="6dp"
+                android:paddingLeft="3dp"
+                android:text="Message Of VC"
+                android:textColor="#ff43a15f"
+                android:textSize="24sp"
+                android:background="@drawable/internal"
+                android:layout_marginRight="3dp" />
+
+            <LinearLayout
+                android:id="@+id/ssss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/ImageView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/vc" />
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="22dp"
+                    android:text="With a glorious history of 44 Years,Guru Nanak Dev University has scaled new heights in academics,sports and cultural activities."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:padding="5dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="The University Has Carved a niche for itself on the academic map of India and has now become an excellent centre of learning for students from rural,urban and border areas."
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:paddingBottom="5dp"
+                android:padding="5dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This University is know for excellent infrastructure in terms of building ,states-of-the-art labs for research and teaching .The University is,at present,sucessfully catering to more than twenty thousand students."
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:background="@drawable/card_background_selector"
+            android:layout_margin="3dp"
+            android:paddingBottom="5dp"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="in various faculities at its Main Campus,four Regional Campuses and Nine constituent colleges.This University is the first in the region which is the first in the region which introduced on-line admissionsThe transparent admissions process that the University adhere to attracts meritotious students.This is the leading university in the state to implement semester System in tall under-graduate and post-graduate courses and credits Based Evalution System at its Campuses."
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:background="@drawable/card_background_selector"
+            android:layout_margin="3dp"
+            android:paddingBottom="5dp"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="The University grants Commission acknowledged our university&apos;s contribution to teaching and research in humanities and sciences by awarding it the status of university with potential of Excellence."
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:background="@drawable/card_background_selector"
+            android:layout_margin="3dp"
+            android:paddingBottom="5dp"
+            android:padding="5dp" />
+
+    </LinearLayout>
+
+</ScrollView>

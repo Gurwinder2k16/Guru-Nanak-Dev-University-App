@@ -1,0 +1,141 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/as"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout21"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.demo.MainActivity"
+        android:background="#fff9fff6"
+        android:orientation="vertical"
+        android:weightSum="1">
+    <LinearLayout
+        android:id="@+id/LinearLayout22"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        tools:context="com.example.demo.MainActivity"
+
+        android:background="@drawable/actionbar"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Activation Form"
+            android:textColor="#ffffffff"
+            android:textSize="34sp"
+            android:layout_marginTop="7dp" />
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_gravity="right">
+
+        <Button
+            android:id="@+id/minfo"
+            android:layout_width="80dp"
+            android:layout_height="81dp"
+            android:background="@drawable/ok"
+            android:backgroundTintMode="screen"
+            android:layout_marginTop="-10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="right" />
+        </LinearLayout>
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:background="#fff9fff6">
+
+            <TextView
+                android:id="@+id/cname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Please Enter First time App Activation Info."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:typeface="normal"
+                android:textColor="#ff000000" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_x="0dp"
+                android:layout_y="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/avtar"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="0.37"
+                android:text="Enter User/Student  Name"
+                android:textColor="#ff000000"
+                android:textSize="18dp"
+                android:typeface="normal" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:inputType="textPersonName" >
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Enter Semester or Guest"
+                android:textColor="#ff000000"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:id="@+id/spinner" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="CANCEL"
+            android:layout_weight="0.55"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="* If You Are Not Student of GNDU Please Select  GUEST instead of Semester"
+            android:textColor="#ff000000" />
+
+    </LinearLayout>
+
+</ScrollView>

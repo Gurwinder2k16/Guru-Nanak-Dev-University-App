@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 
+   <string-array name="Menu">
+    <item name="Login">Login</item>
+    <item name="Placements">Placements</item>
+    <item name="About Staff">About Staff</item>
+    <item name="History">History</item>
+    <item name="Courses">Courses</item>
+    <item name="Other Services">Other Services</item>
+    <item name="About Hostels">About Hostels</item>
+    <item name="Infrastructure">Infrastructure</item>
+    <item name="Message From VC">Message From VC"</item>
+      <item name="Events">Events</item>
+    <item name="Contacts">Contacts"</item>
+    
+   <item name="Syllabus">Syllabus</item>
+    <item name="ScholorShip">ScholorShip"</item>
+     
+    
+</string-array>   
+</resources>
+
+
+
+
+

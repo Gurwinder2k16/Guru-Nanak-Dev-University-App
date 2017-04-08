@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgro"
+    android:layoutMode="opticalBounds"
+    android:orientation="vertical"
+    android:overScrollMode="always"
+    android:scrollbarSize="5dp"
+    android:scrollbarStyle="outsideOverlay"
+    android:scrollbars="vertical"
+    android:nestedScrollingEnabled="true">
+
+    <LinearLayout
+        android:id="@+id/sssss"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/asd"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top" >
+
+            <LinearLayout
+                android:id="@+id/main"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:divider="@drawable/div"
+                android:orientation="vertical"
+                android:showDividers="middle" >
+
+                <LinearLayout
+                    android:id="@+id/sdsd"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:orientation="vertical" >
+
+                    <AbsoluteLayout
+                        android:id="@+id/fdsf"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="240dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_x="0dp"
+                            android:layout_y="0dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/gndub"
+                            android:background="@drawable/card_background_selector"
+                            android:padding="3dp" />
+
+                        <LinearLayout
+                            android:id="@+id/xcxz"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_x="-4dp"
+                            android:layout_y="154dp"
+                            android:orientation="vertical"
+                            android:paddingLeft="7dp" >
+
+                            <TextView
+                                android:id="@+id/slidetxt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="GNDU AMRITSAR CAMPUS"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="#fff"
+                                android:textSize="25sp" />
+                        </LinearLayout>
+                    </AbsoluteLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/card_background_selector">
+
+                    <AbsoluteLayout
+                        android:id="@+id/aaaaa"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp">
+
+                        <include
+                            android:id="@+id/includes"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            layout="@layout/middata"
+                            android:alpha="30"
+                            android:overScrollMode="always"
+                            android:scrollbarAlwaysDrawVerticalTrack="true"
+                            android:scrollbarStyle="insideInset"
+                            android:scrollbars="vertical" />
+
+                        <LinearLayout
+                            android:id="@+id/xcv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_x="2dp"
+                            android:layout_y="2dp"
+                            android:orientation="vertical" >
+
+                            <Button
+                                android:id="@+id/minfo"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:layout_gravity="end"
+
+                                android:background="@drawable/down"
+                                android:backgroundTintMode="screen" />
+                        </LinearLayout>
+                    </AbsoluteLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/footer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/MAIN"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="-10dp"
+                        android:layout_marginRight="-10dp"
+                        android:background="@drawable/foterback"
+                        android:orientation="vertical"
+                        android:paddingLeft="14dp" >
+
+                        <LinearLayout
+                            android:id="@+id/sssssssssssssssssssss"
+                            android:layout_width="wrap_content"
+                            android:layout_height="270dp" >
+
+                            <LinearLayout
+                                android:id="@+id/bz"
+                                android:layout_width="152dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:id="@+id/TextView02"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="20dp"
+                                    android:text="5 TopMost Campus"
+                                    android:textAppearance="?android:attr/textAppearanceMedium"
+                                    android:textColor="#533EF3" />
+
+                                <TextView
+                                    android:id="@+id/textView5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="15dp"
+                                    android:text="GNDU MAIN CAMPUS(ASR)"
+                                    android:textColor="#000" />
+
+                                <TextView
+                                    android:id="@+id/textView6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="11dp"
+                                    android:text="Jalandhar Campus"
+                                    android:textColor="#000" />
+
+                                <TextView
+                                    android:id="@+id/textView7"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="11dp"
+                                    android:text="Gurdaspur Campus"
+                                    android:textColor="#000" />
+
+                                <TextView
+                                    android:id="@+id/textView9"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="11dp"
+                                    android:text="Sathiala Campus"
+                                    android:textColor="#000" />
+
+                                <TextView
+                                    android:id="@+id/textView8"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="11dp"
+                                    android:text="SultanPur Lodhi Campus"
+                                    android:textColor="#000" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/az"
+                                android:layout_width="160dp"
+                                android:layout_height="280dp"
+                                android:layout_weight="0.95"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:id="@+id/TextView03"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="20dp"
+                                    android:text="GNDU Affilated Colleges"
+                                    android:textAppearance="?android:attr/textAppearanceMedium"
+                                    android:textColor="#533EF3" />
+
+                                <TextView
+                                    android:id="@+id/TextView08"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="15dp"
+                                    android:text="GNDU College(Verka)"
+                                    android:textColor="#000" />
+
+                                <TextView
+                                    android:id="@+id/TextView07"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="11dp"
+                                    android:text="GNDU College (JAL)"
+                                    android:textColor="#000" />
+
+                                <TextView
+                                    android:id="@+id/TextView06"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="11dp"
+                                    android:text="S.R.S.P.M College,Niari"
+                                    android:textColor="#000" />
+
+                                <TextView
+                                    android:id="@+id/TextView05"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="11dp"
+                                    android:text="A.S.S.M College"
+                                    android:textColor="#000" />
+
+                                <TextView
+                                    android:id="@+id/TextView01"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="7dp"
+                                    android:text="GNDU College,Narot Jaimal Singh"
+                                    android:textColor="#000" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/body"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="-6dp"
+                        android:layout_marginRight="-10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="5.73"
+                        android:background="@drawable/foterback"
+                        android:orientation="vertical"
+                        android:padding="14dp" >
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:text="Complaint Regarding Application"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#306994" />
+
+                        <TextView
+                            android:id="@+id/TextView04"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="20dp"
+                            android:layout_weight="0.12"
+                            android:text="Gurwinder Singh B-Tech (CSE) IIIrd Sem. RC  Jalandhar ."
+                            android:textColor="#fff"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/TextView10"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="20dp"
+                            android:text="mocgurwinder@gmail.com"
+                            android:textColor="#fff"
+                            android:textSize="18sp" />
+
+                        <LinearLayout
+                            android:id="@+id/wew"
+                            android:layout_width="81dp"
+                            android:layout_height="42dp"
+                            android:layout_gravity="end" >
+
+                            <ImageView
+                                android:id="@+id/imageView12"
+                                android:layout_width="40dp"
+                                android:layout_height="match_parent"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/fb_share" />
+
+                            <ImageView
+                                android:id="@+id/imageView7"
+                                android:layout_width="40dp"
+                                android:layout_height="match_parent"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/gplus_share" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

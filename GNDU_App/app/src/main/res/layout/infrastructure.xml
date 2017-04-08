@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/actionbar">
+        <ImageView
+            android:id="@+id/adm"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/prev" />
+</LinearLayout>
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="25dp"
+            android:text="INFRASTRUCTURE OF GNDU"
+            android:textSize="20sp"
+            android:textColor="#ff43a15f" />
+
+        <ImageView
+            android:id="@+id/midimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gndub"
+            android:background="@drawable/card_background_selector"
+            android:scaleType="fitXY"
+            android:padding="3dp" />
+
+        <TextView
+            android:id="@+id/cname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Guru Nanak Dev University campus is spread over 500 acres (2 km²) near village of Kot Khalsa, nearly 8 km west of the Amritsar City on Amritsar - Lahore highway, next to Khalsa College, Amritsar. Recently, Guru Nanak Dev University has attained the highest status of University with Potential for Excellence (UPE) by the University Grants Commission (UGC).G.N.D.U. is both a residential and an affiliating University. In conceiving the future course of the University, Traditional red brick geometrical blocks represent its regard for time-honoured values and its commitment to scientific advancement. Making its humble beginning in an annexe of the adjoining Khalsa College, the University today boasts thirty seven academic departments, two regional centres, three constituent colleges and a score of support service departments together with several administrative offices."
+            android:textSize="16sp"
+            android:background="@drawable/card_background_selector"
+            android:layout_margin="3dp"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/actionbar"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="BHAI GURDAS LIBRARY "
+            android:textSize="20sp"
+            android:textColor="#ffffffff" />
+
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/lib"
+            android:background="@drawable/card_background_selector"
+            android:padding="3dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The University Library is one of the most Prestigious &amp; well known Library in north zone of India, having more than 4 lakh 15 thousand books along with many Indian &amp; foreign journals, manuscripts, dissertations and map Collections etc. Bhai Gurdas Library has prepared Databases of books in English, Hindi and Punjabi Languages. As soon as new books are purchased and processed, their bibliographic description is added in the OPAC. Two terminals have been dedicated for the readers to use OPAC for their search of books. In addition to OPAC this facility is also available on INTRANET within University Campus to benefit the students/faculty members by giving access to catalog at their respective departments. Computer Section of Bhai Gurdas Library also provide fast speed free Internet Service to students with more than twenty systems."
+            android:textSize="16sp"
+            android:background="@drawable/card_background_selector"
+            android:layout_margin="3dp"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/actionbar"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:text="DEPT OF ELECTRONICS TECHNOLOGY"
+            android:textSize="20sp"
+            android:textColor="#ffffffff" />
+
+        <ImageView
+            android:id="@+id/s2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gndua"
+            android:background="@drawable/card_background_selector"
+            android:scaleType="fitXY"
+            android:padding="3dp" />
+
+        <LinearLayout
+            android:id="@+id/aaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/viewmore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Department of Electronics Technology was founded in July, 1983. It supports the most coveted courses in the region. It is graced with a distinguished faculty. It has well equipped labs and facilities like Fiber Optic Communications, Microwave measurements, Digital Signal Processing, Microprocessor, Communication Systems and Electronic Devices and Circuits labs. The Department provides a well designed course curriculum and has an accordant interaction with industry experts. The Department also supports Ph.D. programme and extensive research activities in area like Digital Signal Processing, Microwave materials, Fiber Optics Communications (Components &amp; Sensors) and nano devices. The Department has on-campus recruitment programmes for placements in prestigious companies and it is an honour for the Department that the placement rate is almost 100%. The students of the Department have formed ESF (Electronics Students Forum) to promote extra curricular activities to enrich their personalities. ESF organizes events like Group Discussion, Vocab-a-Mania, debates on contemporary issues &amp; other related activities to showcase the hidden talents of the students. The department has been organizing National level Technical festival in past and promote students to participate in such events organized by other technical institutions. The students of our department have outperformed in interdepartmental sports meet as well as inter-departmental cultural festival conducted at university level."
+                android:textSize="16sp"
+                android:background="@drawable/card_background_selector"
+                android:layout_margin="3dp"
+                android:padding="5dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/actionbar"
+                android:paddingLeft="5dp"
+                android:paddingTop="10dp"
+                android:text="DEPARTMENT OF GURU NANAK STUDIES"
+                android:textSize="20sp"
+                android:textColor="#ffffffff" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/s3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gndue"
+            android:background="@drawable/card_background_selector"
+            android:scaleType="fitXY"
+            android:padding="3dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Department of Guru Nanak Studies was set up in 1971 in accordance with the provisions of the Article IV of Guru Nanak Dev University Act, 1969 as follows: To make provision for study and research on the Life and Teachings of Guru Nanak Dev and their cultural and religious impact in the context of Indian and World Civilizations. The Department of Guru Nanak Studies is an inter-disciplinary department with its main focus on Sikh Studies and Comparative Study of Religion. The department offers two Post Graduate Courses in Religious Studies and Philosophy and M.Phil. Course in the subject of Religious Studies. Besides teaching, research guidance is provided to regular as well as part-time students pursuing for their Ph.D. The U.G.C has sanctioned grant of 60 lacs for the department under DRS-II (Special Assistance Programme) for the next five years. Journal of Sikh Studies, a refereed journal of international repute has been a regular feature of the department since 1974. A new Journal Dharam Adhyan Patrika (Punjabi) has been started from 2012.National and International Seminars and Conferences are organized by the department for dissemination of research activities on the Sikh Studies and allied fields in the wider perspective."
+            android:textSize="16sp"
+            android:background="@drawable/card_background_selector"
+            android:layout_margin="3dp"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/actionbar"
+            android:paddingLeft="5dp"
+            android:paddingTop="15dp"
+            android:text="DEPARTMENT OF LAWS"
+            android:textSize="20sp"
+            android:textColor="#ffffffff" />
+
+        <ImageView
+            android:id="@+id/s4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gndud"
+            android:background="@drawable/card_background_selector"
+            android:scaleType="fitXY"
+            android:padding="3dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Department of Laws at Guru Nanak Dev University, Amritsar was established in the year 1972 having LL.B. Course and in 1983, teaching of LL.M. was started. The Department now offers Bachelor of Laws (LL.B.) Three Years Course,B.A.LL.B.(Hons.)Five Year Course and Master of Laws (LL.M.) Course. There is also a provision for research leading to Ph.D. Degree. By now, more than Seven thousand two hundred students have obtained LL.B. Degrees from the Department. Nearly two hundred eighty students have completed LL.M. and more than 60 students have been awarded degrees of Ph.D. Many of the former students of the Law Department are now occupying prominent places in the Indian Administrative Services (IAS), Indian Foreign Service (IFS), Indian Police Services (IPS), and other Allied Services as well as in the State Civil and Judicial Services. A sizeable majority has joined the legal profession in the Supreme Court, High Courts and the subordinate courts and some of them have joined the academics and teaching profession. Numbers of students have joined UN Bodies, Corporations including MNCs. In addition to it, some of them have gone abroad for higher studies."
+            android:textSize="16sp"
+            android:background="@drawable/card_background_selector"
+            android:layout_margin="3dp"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/actionbar"
+            android:paddingLeft="5dp"
+            android:paddingTop="15dp"
+            android:text="DEPARTMENT OF BIOTECHNOLOGY"
+            android:textSize="18sp"
+            android:textColor="#ffffffff" />
+
+        <ImageView
+            android:id="@+id/s5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gndua"
+            android:background="@drawable/card_background_selector"
+            android:scaleType="fitXY"
+            android:padding="3dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Department of Biotechnology was established in the year 1991 with financial support from University and DBT, Govt. of India. The Department has made rapid strides in both teaching and research, and has made its presence felt at the national and international levels. This Department is a constituent of National Network of Centres imparting training to the students in Biotechnology. Students selected through AICET in Biotechnology are awarded a scholarship of Rs. 3000.00 P.M. during M.Sc. Biotechnology. The Department has well equipped teaching/research and computer laboratories for imparting training to the students in Medical, Plant and Microbial Biotechnology."
+            android:textSize="16sp"
+            android:background="@drawable/card_background_selector"
+            android:layout_margin="3dp"
+            android:padding="5dp" />
+
+        <LinearLayout
+            android:id="@+id/dff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/actionbar"
+                android:paddingLeft="5dp"
+                android:paddingTop="15dp"
+                android:text="DEPARTMENT OF HUMAN GENETICS"
+                android:textSize="20sp"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Department of Human Genetics is a DST-FIST sponsored and a UGC-SAP (DRS-II)- recognized Department. Since its beginning in 1990 it has grown significantly in terms of teaching and research. At national and international level it is a well-known Department through its research achievements. Faculty members of the Department have received various research projects from funding agencies such as UGC, DBT, DST, ICMR, CSIR and PSCST time to time. The major thrust areas of research and teaching include: Human Biochemical Genetics, Cytogenetics, Genetic Epidemiology, Genetic Toxicology, Immunogenetics, Medical Genetics, Molecular Genetics and Population Genetics. Update of course syllabi, lectures by eminent scientists, organization of hands-on-training workshops, seminars and conferences are the regular features of the department. The students of the department have been absorbed in premier research institutes and have also been able to get jobs in different diagnostic centres, hospitals, teaching and research institutions in India as well as abroad."
+                android:textSize="16sp"
+                android:background="@drawable/card_background_selector"
+                android:layout_margin="3dp"
+                android:padding="5dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/actionbar"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="DEPARTMENT OF MOLECULAR BIOLOGY AND BIOCHEMISTRY"
+            android:textSize="20sp"
+            android:textColor="#ffffffff" />
+
+        <ImageView
+            android:id="@+id/ImageView07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gndua"
+            android:background="@drawable/card_background_selector"
+            android:scaleType="fitXY"
+            android:padding="3dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The department of chemistry established in 1971 is one of the oldest departments of Guru Nanak Dev University. The department has earned a repute at the national &amp; international level with the coordination and achievement of the dedicated faculty and non teaching staff. The department has been granted the status of &quot;Centre for Advanced Studies&quot;, by UGC, New Delhi with the financial grant of Rs.136 lacs for the period 2008-13 under phase I and again in phase II with grant of Rs. 300 lacs (2014-2019). The Department of Science and Technology (DST) also sanctioned a grant of Rs. 256 lacs under FIST for the period 2009-2014 to purchase NMR (400 MHz) &amp; CCD. The state of the art research facilities in the department such as 300 MHz NMR spectrometer, X-Ray powder Diffractometer, IR with variable temperature facility, Mossbauer Spectrometer, Fluorescence Spectrophotometer, CHNS Analyzer, HPLC, Tensiometer, Magnetic Susceptibility Balance, molecular modeling software, DTA-TGA Differential Scanning Calorimeter, Microwave Synthesizer, BET surface analyzer, Vibratory sample Magnetometer, Isothermal Calorimeter and Dynamic Light Scatterer etc. and modern fume-hoods are available in the research laboratories. Most of the students laboratories have been fitted with RO water purifier systems and Electronic balances."
+            android:textSize="16sp"
+            android:background="@drawable/card_background_selector"
+            android:padding="5dp"
+            android:layout_margin="3dp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="DEPARTMENT OF FOOD SCIENCE &amp; TECHNOLOGY"
+            android:textSize="20sp"
+            android:background="@drawable/actionbar"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffffff"
+            android:padding="5dp" />
+
+        <LinearLayout
+            android:id="@+id/sss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/card_background_selector"
+            android:orientation="vertical"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The department has been established to generate skilled manpower to meet the requirements of food processing, sugar &amp; alcohol industry. The department has specialized laboratories in the areas of (1) Cereals, legumes and oilseeds processing; (2) Fruits and vegetables processing; (3) Meat, fish and poultry processing; (4) Milk, and milk products processing; (5) Food analysis and quality control; (6) Food engineering; (7) Product development; (8) Sugar processing; (9) Sugar testing; (10) Alcohol technology; and (11) Sophisticated instrumentation laboratory. In addition to theoretical knowledge, the students are also given in-plant industrial training. "
+                android:textSize="16sp"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="3dp"
+                android:padding="5dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingTop="5dp"
+            android:text="DEPARTMENT OF MATHEMATICS"
+            android:textSize="20sp"
+            android:background="@drawable/actionbar"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffffff"
+            android:padding="5dp" />
+
+        <LinearLayout
+            android:id="@+id/aa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/card_background_selector"
+            android:orientation="vertical"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="3dp"
+                android:text="Research facilities exist in the fields of Applied functional analysis (Wavelet and Inverse problems), Information Theory, Approximation theory, Multiple Comparison Procedures, Queueing Theory, Survey Sampling Theory, Fluid Dynamics, Analytic Number theory, Algebra, Real Analysis, Generalized integrals, etc."
+                android:textSize="16sp"
+                android:layout_marginTop="7dp"
+                android:padding="5dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="3dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="3dp"
+            android:paddingTop="5dp"
+            android:text="DEPARTMENT OF PHYSICS"
+            android:textSize="20sp"
+            android:background="@drawable/actionbar"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffffff"
+            android:padding="5dp" />
+
+        <LinearLayout
+            android:id="@+id/aaaaaaaaaaaaaaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_background_selector"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Experimental research facilities leading to Ph.D. degree have been established in the areas of material science namely, thin films, oxide and chalcogenide glasses, amorphous materials, glasses and glass ceramics, radiation effects in glasses, gas sensors and ferromagnetic semiconductors. Research is also being carried out in the areas of nuclear geo-physics based seismotectonic studies, radiation physics and environmental radioactivity. In theoretical physics, the department undertakes research work in the areas of nuclear theory, plasma physics, atomic physics and quantum computation."
+                android:textSize="16sp"
+                android:layout_margin="3dp"
+                android:padding="5dp"
+                android:paddingLeft="3dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

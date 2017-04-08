@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:background="@drawable/backnew">
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="Gallery of GNDU Campuses"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#d4ffa231"
+            android:textSize="25dp"
+            android:background="#36d3d3d3"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Tap on Image for Full View and Detail."
+            android:id="@+id/textView24"
+            android:layout_weight="0.03"
+            android:layout_marginTop="12dp"
+            android:background="#36d3d3d3" />
+
+        <ScrollView
+            android:id="@+id/ScrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:overScrollMode="ifContentScrolls"
+            android:layout_gravity="left"
+            android:nestedScrollingEnabled="true"
+            android:alpha="0.6">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/s6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="25dp"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/gndue"
+                    android:background="@drawable/card_background" />
+
+                <ImageView
+                    android:id="@+id/s5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="25dp"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/camrcjal"
+                    android:background="@drawable/card_background" />
+
+                <ImageView
+                    android:id="@+id/s4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="25dp"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/gur"
+                    android:background="@drawable/card_background" />
+
+                <ImageView
+                    android:id="@+id/s3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="25dp"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/sah"
+                    android:background="@drawable/card_background" />
+
+                <ImageView
+                    android:id="@+id/s2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="25dp"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/lodh"
+                    android:background="@drawable/card_background" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</ScrollView>

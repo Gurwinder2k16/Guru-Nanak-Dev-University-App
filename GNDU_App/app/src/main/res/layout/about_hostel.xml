@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:overScrollMode="ifContentScrolls">
+
+	<LinearLayout
+	    android:id="@+id/qwer"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+
+	    <LinearLayout
+	        android:id="@+id/q1"
+	        android:layout_width="match_parent"
+	        android:layout_height="52dp"
+	        android:paddingTop="-3dp"
+			android:background="@drawable/actionbar">
+
+	        <ImageView
+	            android:id="@+id/adm"
+	            android:layout_width="50dp"
+	            android:layout_height="50dp"
+	            android:layout_marginLeft="3dp"
+				android:src="@drawable/prev" />
+
+	        <TextView
+	            android:id="@+id/cname"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:layout_marginLeft="13dp"
+				android:text="About GNDU Hostel"
+	            android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textColor="#ffffffff" />
+	    </LinearLayout>
+
+		<TextView
+			android:id="@+id/textView23"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:layout_marginTop="10dp"
+			android:layout_weight="0.24"
+			android:text="Hostel ASR CAMPUS"
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		<ImageView
+	        android:id="@+id/imageView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="15dp"
+	        android:layout_weight="0.02"
+	        android:scaleType="fitXY"
+	        android:src="@drawable/hostel"
+			android:background="@drawable/card_background"
+			android:layout_margin="3dp"
+			android:padding="4dp" />
+
+	    <TextView
+	        android:id="@+id/textView4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:layout_marginTop="10dp"
+	        android:layout_weight="0.24"
+	        android:text="Girl Hostel RC JALANDHAR"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	    <ImageView
+	        android:id="@+id/ImageView01"
+	        android:layout_width="wrap_content"
+	        android:layout_height="280dp"
+	        android:layout_marginTop="10dp"
+	        android:layout_weight="0.24"
+	        android:scaleType="fitXY"
+	        android:src="@drawable/hostels"
+			android:background="@drawable/card_background"
+			android:layout_margin="3dp"
+			android:padding="4dp" />
+
+	    <TextView
+	        android:id="@+id/textView2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dp"
+	        android:padding="5dp"
+	        android:text="The beautiful campus of Guru Nanak Dev University provides homely environment to more than three thousand students in its five hostels. This number is shortly going to be increased to six. The first hostel was made available to the students in 1973 and since then the university has built up a total of three girls‟ hostels accommodating around 1600 students. The two boys‟ hostels comprising of several blocks house around 1300 students. Each hostel is equipped with fully furnished rooms, dining halls, reading room and 24 hours internet labs. A stationary cum retail shop along with a hostel canteen is made available in each hostel. Keeping in view the increased number of girl students seeking admission in various courses, a new six story hostel is being constructed in the campus with a whopping amount of Rs 14 crore. The newely construted multi storied Girl hostel is expected to be available from the session 2013-14 and will house around 800 girl students. A council including the warden and an assistant warden for each hostel looks after the administration of hostel. Students committee such as mess committee aids in the smooth functioning of the hostels. To maintain the security and peaceful environment of each hostel has 24 hour availability of assistant warden and security guards. All the hostels are provided with 24 hour Wi-Fi internet connectivity.   "
+	        android:textSize="18sp"
+			android:background="@drawable/card_background"
+			android:layout_marginLeft="3dp"
+			android:layout_marginRight="3dp"
+			android:layout_marginBottom="3dp" />
+
+	    <TextView
+	        android:id="@+id/textView3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="end"
+	        android:text="(Dr. P. K. Sehajpal) Dean Students&apos; Welfare "
+			android:layout_marginBottom="8dp" />
+	</LinearLayout>
+
+</ScrollView>

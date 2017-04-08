@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gndu.gurunanakdevuniversity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="14" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <android:uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        <activity
+            android:name=".Auth"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".Pic"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".SlideMenu"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".Login"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".About_Hostels" />
+        <activity
+            android:name=".Developed"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Announvements" />
+        <activity android:name=".Campuses" />
+        <activity android:name=".Contact" />
+        <activity android:name=".Events" />
+        <activity android:name=".History" />
+        <activity android:name=".Infrastracture" />
+        <activity android:name=".Message_Of_Vc" />
+        <activity android:name=".Placement" />
+        <activity android:name=".Other_Services" />
+        <activity android:name=".Scholorship" />
+        <activity android:name=".UGC" />
+        <activity android:name=".Syllabus" />
+        <activity android:name=".Admission" />
+        <activity android:name=".Contact_web" />
+        <activity
+            android:name=".container"
+            android:label="@string/title_activity_container"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:name="ServiceTest" >
+        </service>
+    </application>
+
+</manifest>
